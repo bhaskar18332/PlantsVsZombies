@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6ebb2071-94f7-421e-bcff-c307d520940e_PlantsvsZombies.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="321.0" layoutY="158.0" prefHeight="310.0" prefWidth="277.0">
+         <children>
+            <ImageView fitHeight="310.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Annotation%202019-10-24%20194428.png" />
+               </image>
+            </ImageView>
+            <Button contentDisplay="GRAPHIC_ONLY" layoutX="85.0" layoutY="127.0" mnemonicParsing="false" onAction="#Resume_Game" opacity="0.0" prefHeight="36.0" prefWidth="164.0">
+               <effect>
+                  <GaussianBlur radius="5.6">
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <SepiaTone />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </GaussianBlur>
+               </effect>
+            </Button>
+            <Button layoutX="85.0" layoutY="70.0" mnemonicParsing="false" onAction="#New_Game" opacity="0.0" prefHeight="36.0" prefWidth="164.0">
+               <effect>
+                  <GaussianBlur>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <SepiaTone />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </GaussianBlur>
+               </effect>
+            </Button>
+            <Button layoutX="77.0" layoutY="187.0" mnemonicParsing="false" onAction="#Settings" opacity="0.0" prefHeight="36.0" prefWidth="164.0">
+               <effect>
+                  <GaussianBlur>
+                     <input>
+                        <SepiaTone />
+                     </input>
+                  </GaussianBlur>
+               </effect>
+            </Button>
+            <Button contentDisplay="GRAPHIC_ONLY" layoutX="77.0" layoutY="244.0" mnemonicParsing="false" onAction="#Exit" opacity="0.0" prefHeight="36.0" prefWidth="164.0">
+               <effect>
+                  <GaussianBlur>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <SepiaTone />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </GaussianBlur>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
