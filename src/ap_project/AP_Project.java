@@ -16,9 +16,11 @@ import javafx.stage.Stage;
  * @author lenovo
  */
 public class AP_Project extends Application {
+    static Stage stage;
     
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage primarystage) throws Exception {
+        stage = primarystage;
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);

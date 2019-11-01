@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="559.0" layoutY="95.0" prefHeight="329.0" prefWidth="277.0">
+         <children>
+            <Button layoutX="62.0" layoutY="35.0" mnemonicParsing="false" opacity="0.0" prefHeight="36.0" prefWidth="200.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cool%20Text%20-%20New%20Game%20339410694425558.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cool%20Text%20-%20Resume%20Game%20339411045141340.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="7.0" layoutY="88.0" mnemonicParsing="false" opacity="0.0" prefHeight="44.0" prefWidth="192.0" text="Button" />
+            <ImageView fitHeight="36.0" fitWidth="164.0" layoutX="105.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cool%20Text%20-%20EXIT%20339410956716689.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cool%20Text%20-%20Settings%20339410920280580.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="96.0" layoutY="269.0" mnemonicParsing="false" opacity="0.0" prefHeight="45.0" prefWidth="197.0" />
+            <Button layoutX="59.0" layoutY="178.0" mnemonicParsing="false" opacity="0.0" prefHeight="45.0" prefWidth="208.0" />
+            <Button layoutX="52.0" layoutY="35.0" mnemonicParsing="false" onAction="#New_Game" opacity="0.0" prefHeight="41.0" prefWidth="210.0" text="Button" />
+            <Button layoutX="58.0" layoutY="101.0" mnemonicParsing="false" onAction="#Resume_Game" opacity="0.0" prefHeight="41.0" prefWidth="210.0" text="Button" />
+            <Button layoutX="36.0" layoutY="176.0" mnemonicParsing="false" onAction="#Settings" opacity="0.0" prefHeight="53.0" prefWidth="226.0" text="Button" />
+            <Button layoutX="48.0" layoutY="240.0" mnemonicParsing="false" onAction="#Exit" opacity="0.0" prefHeight="55.0" prefWidth="210.0" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

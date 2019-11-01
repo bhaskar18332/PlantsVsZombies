@@ -15,17 +15,24 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-
+import javafx.stage.Stage;
 /**
  *
  * @author lenovo
  */
 public class FXMLDocumentController implements Initializable {
-    
+    Stage stage;
     
     @FXML
     private void New_Game(ActionEvent event) throws IOException {
         System.out.println("New Game");
+        stage = AP_Project.stage;
+        Parent root = FXMLLoader.load(getClass().getResource("New_Game.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        stage.setScene(scene);
+        stage.show();
         
     }
     
