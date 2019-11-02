@@ -120,7 +120,7 @@ public class Level_PageController implements Initializable {
     @FXML
     private void start_game(ActionEvent e) throws IOException
     {
-        Parent root = FXMLLoader.load(getClass().getResource("In_Game_Page.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Game_Page.fxml"));
         
         Scene scene = new Scene(root);
         

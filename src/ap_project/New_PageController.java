@@ -27,14 +27,13 @@ public class New_PageController implements Initializable {
     Stage stage;
     @FXML
     private TextField Name;
-
     
     @FXML
     private void new_Login(ActionEvent event) throws IOException {
         
         AP_Project.name = Name.getText();
         stage = AP_Project.stage;
-        System.out.println(AP_Project.name);
+        
         Parent root = FXMLLoader.load(getClass().getResource("Level_Page.fxml"));
         
         Scene scene = new Scene(root);
