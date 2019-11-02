@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="521.0" fitWidth="809.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sample.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="321.0" layoutY="14.0" prefHeight="154.0" prefWidth="339.0">
+         <center>
+            <Text fill="#f2fa0a" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Login " textAlignment="CENTER" wrappingWidth="258.93675804138184" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="SimSun" size="96.0" />
+               </font>
+               <effect>
+                  <Glow level="0.98">
+                     <input>
+                        <ColorAdjust />
+                     </input>
+                  </Glow>
+               </effect>
+            </Text>
+         </center>
+      </BorderPane>
+      <TextField layoutX="405.0" layoutY="261.0" prefHeight="45.0" prefWidth="190.0" />
+      <Button contentDisplay="CENTER" layoutX="131.0" layoutY="345.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="179.0" text="Next" textAlignment="CENTER" textFill="#160202" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="27.0" />
+         </font>
+         <effect>
+            <DropShadow color="#a7c71c" height="54.36" radius="33.235" spread="0.64" width="80.58" />
+         </effect>
+      </Button>
+      <Text fill="#fa140c" layoutX="104.0" layoutY="295.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Username :" textAlignment="CENTER" underline="true" wrappingWidth="274.93675804138184">
+         <font>
+            <Font name="Candara" size="36.0" />
+         </font>
+         <effect>
+            <Glow level="0.98">
+               <input>
+                  <ColorAdjust />
+               </input>
+            </Glow>
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
