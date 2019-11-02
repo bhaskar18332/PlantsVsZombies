@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Level_PageController">
+   <children>
+      <ImageView fx:id="previous" fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@depositphotos_218399086-stock-photo-spooky-halloween-pumpkin-forest-scary.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="81.0" fitWidth="403.0" layoutX="255.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cool%20Text%20-%20Choose%20Level%20340185736735797.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="150.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RedButton_LeftArrow.svg-58014c285f9b5805c222f65f.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutY="-2.0" mnemonicParsing="false" onAction="#Level_Back" opacity="0.0" prefHeight="64.0" prefWidth="71.0" />
+      <ImageView fx:id="normalzombie" fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@normalzombie.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="previous" fitHeight="100.0" fitWidth="100.0" layoutX="49.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="next" fitHeight="92.0" fitWidth="64.0" layoutX="787.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@next.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="previousbt" layoutX="65.0" layoutY="232.0" mnemonicParsing="false" onAction="#previous" opacity="0.0" prefHeight="64.0" prefWidth="71.0" />
+      <Button fx:id="nextbt" layoutX="786.0" layoutY="235.0" mnemonicParsing="false" onAction="#next" opacity="0.04" prefHeight="64.0" prefWidth="64.0" />
+      <ImageView fx:id="conezombie" fitHeight="150.0" fitWidth="200.0" layoutX="423.0" layoutY="184.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@conezombie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bucketzombie" fitHeight="150.0" fitWidth="200.0" layoutX="414.0" layoutY="188.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bucketzombie.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shieldzombie" fitHeight="150.0" fitWidth="200.0" layoutX="362.0" layoutY="184.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@shieldzombie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="254.0" layoutX="335.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cool%20Text%20-%20Start%20Game%20340191263037923.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="338.0" layoutY="416.0" mnemonicParsing="false" onAction="#start_game" opacity="0.0" prefHeight="58.0" prefWidth="247.0" />
+   </children>
+</AnchorPane>

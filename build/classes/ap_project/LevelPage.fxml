@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.LevelPageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@depositphotos_218399086-stock-photo-spooky-halloween-pumpkin-forest-scary.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="81.0" fitWidth="403.0" layoutX="255.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Cool%20Text%20-%20Choose%20Level%20340185736735797.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="150.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RedButton_LeftArrow.svg-58014c285f9b5805c222f65f.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="-2.0" mnemonicParsing="false" onAction="#Level_Back" opacity="0.0" prefHeight="64.0" prefWidth="71.0" />
+      <Button layoutX="381.0" layoutY="191.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="135.0" text="Display Name" />
+   </children>
+</AnchorPane>

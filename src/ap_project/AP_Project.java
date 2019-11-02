@@ -17,11 +17,12 @@ import javafx.stage.Stage;
  */
 public class AP_Project extends Application {
     static Stage stage;
-    
+    static String name;
+    static int level;
     @Override
     public void start(Stage primarystage) throws Exception {
         stage = primarystage;
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
         
         Scene scene = new Scene(root);
         
