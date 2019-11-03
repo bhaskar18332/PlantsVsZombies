@@ -1,11 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Resume_PageController">
-    
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Resume_PageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume_back.jpg" />
+         </image></ImageView>
+      <Label layoutX="310.0" layoutY="35.0" text="Game Paused!" textFill="#01ee25">
+         <font>
+            <Font name="Sylfaen" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="377.0" layoutY="171.0" mnemonicParsing="false" onAction="#resume" prefHeight="39.0" prefWidth="120.0" text="Resume">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#cdd71d" spread="0.85">
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="381.0" layoutY="257.0" mnemonicParsing="false" onAction="#restart" prefHeight="39.0" prefWidth="118.0" text="Restart">
+         <effect>
+            <DropShadow color="#cdd71d" spread="0.85">
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="380.0" layoutY="340.0" mnemonicParsing="false" onAction="#main_menu" prefHeight="39.0" prefWidth="119.0" text="Main Menu">
+         <effect>
+            <DropShadow color="#cdd71d" spread="0.85">
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="379.0" layoutY="422.0" mnemonicParsing="false" onAction="#save" prefHeight="39.0" prefWidth="123.0" text="Save Game">
+         <effect>
+            <DropShadow color="#cdd71d" spread="0.85">
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>

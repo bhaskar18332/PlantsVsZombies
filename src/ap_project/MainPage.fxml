@@ -19,23 +19,23 @@
          <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Cool%20Text%20-%20New%20Game%20339410694425558.png" />
+                  <Image url="@new_game.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Cool%20Text%20-%20Resume%20Game%20339411045141340.png" />
+                  <Image url="@resume_game.png" />
                </image>
             </ImageView>
             <Button layoutX="7.0" layoutY="88.0" mnemonicParsing="false" opacity="0.0" prefHeight="44.0" prefWidth="192.0" text="Button" />
             <ImageView fitHeight="36.0" fitWidth="164.0" layoutX="108.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Cool%20Text%20-%20EXIT%20339410956716689.png" />
+                  <Image url="@exit.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Cool%20Text%20-%20Settings%20339410920280580.png" />
+                  <Image url="@settings.png" />
                </image>
             </ImageView>
             <Button layoutX="52.0" layoutY="35.0" mnemonicParsing="false" onAction="#New_Game" opacity="0.0" prefHeight="41.0" prefWidth="210.0" />
@@ -44,10 +44,29 @@
             <Button layoutX="56.0" layoutY="325.0" mnemonicParsing="false" onAction="#Exit" opacity="0.0" prefHeight="55.0" prefWidth="210.0" text="Button" />
             <ImageView fitHeight="43.0" fitWidth="200.0" layoutX="88.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Cool%20Text%20-%20Level%20340151477563102.png" />
+                  <Image url="@level.png" />
                </image>
             </ImageView>
             <Button layoutX="35.0" layoutY="250.0" mnemonicParsing="false" onAction="#Level" opacity="0.0" prefHeight="64.0" prefWidth="226.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="108.0" layoutY="36.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="62.0" fitWidth="220.0" layoutX="9.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="101.0" layoutX="65.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="220.0" layoutX="-3.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@title3.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </children>

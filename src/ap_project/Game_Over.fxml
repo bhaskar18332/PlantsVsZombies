@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ap_project.Game_OverController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@game_over.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="277.0" text="Want to play Again?" textFill="#dbfc03">
+         <font>
+            <Font name="Bookman Old Style Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="325.0" layoutY="380.0" mnemonicParsing="false" onAction="#exit" prefHeight="46.0" prefWidth="88.0" text="NO">
+         <font>
+            <Font name="Stencil" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="RED" height="121.81" radius="35.2025">
+               <input>
+                  <DropShadow color="#6fff00" spread="0.77" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button layoutX="522.0" layoutY="380.0" mnemonicParsing="false" onAction="#new_game" text="YES">
+         <font>
+            <Font name="Snap ITC" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="RED" height="104.02" radius="30.755">
+               <input>
+                  <DropShadow color="#66ff00" spread="0.85" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ap_project.Shop_PageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="476.0" layoutY="393.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="RED" height="86.23" radius="41.1325" width="80.3">
+               <input>
+                  <DropShadow color="RED" spread="0.46" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <ImageView fitHeight="84.0" fitWidth="253.0" layoutX="358.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@shop.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

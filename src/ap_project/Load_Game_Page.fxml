@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Load_Game_PageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume_back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="418.0" layoutX="228.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume_game.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="411.0" layoutY="461.0" mnemonicParsing="false" onAction="#resume_back" text="Back">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="RED" height="53.62" radius="30.015" width="68.44">
+               <input>
+                  <DropShadow color="#ff0101" spread="0.68" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

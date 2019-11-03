@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Settings_PageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume_back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="288.0" layoutX="280.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@settings.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="148.0" text="Sound" textFill="#00fff6">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="230.0" text="Music" textFill="#00fff6">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="328.0" layoutY="157.0" mnemonicParsing="false" onAction="#sound_on" text="ON">
+         <font>
+            <Font name="Stencil" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#e1ff00">
+               <input>
+                  <DropShadow color="#11ff00" spread="0.58" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button layoutX="326.0" layoutY="235.0" mnemonicParsing="false" onAction="#music_on" text="ON">
+         <effect>
+            <InnerShadow color="#e1ff00">
+               <input>
+                  <DropShadow color="#11ff00" spread="0.58" />
+               </input>
+            </InnerShadow>
+         </effect>
+         <font>
+            <Font name="Stencil" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="427.0" layoutY="234.0" mnemonicParsing="false" onAction="#music_off" text="OFF">
+         <effect>
+            <InnerShadow color="#e1ff00">
+               <input>
+                  <DropShadow color="#11ff00" spread="0.58" />
+               </input>
+            </InnerShadow>
+         </effect>
+         <font>
+            <Font name="Stencil" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="425.0" layoutY="154.0" mnemonicParsing="false" onAction="#sound_off" text="OFF">
+         <effect>
+            <InnerShadow color="#e1ff00">
+               <input>
+                  <DropShadow color="#11ff00" spread="0.58" />
+               </input>
+            </InnerShadow>
+         </effect>
+         <font>
+            <Font name="Stencil" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="306.0" layoutY="390.0" mnemonicParsing="false" onAction="#save" prefHeight="51.0" prefWidth="182.0" text="Save Changes">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#f6ff00">
+               <input>
+                  <DropShadow color="#ffd700" spread="0.72" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

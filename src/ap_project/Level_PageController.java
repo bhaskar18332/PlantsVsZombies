@@ -45,12 +45,20 @@ public class Level_PageController implements Initializable {
     private ImageView bucketzombie;
     @FXML
     private ImageView shieldzombie;
+    @FXML
+    private ImageView l1;
+    @FXML
+    private ImageView l2;
+    @FXML
+    private ImageView l3;
+    @FXML
+    private ImageView l4;
    
     @FXML
     private void Level_Back(ActionEvent event) throws IOException {
         
         
-        Parent root = FXMLLoader.load(getClass().getResource("New_Page.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Home_Page.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -64,25 +72,33 @@ public class Level_PageController implements Initializable {
         if(i==1)
         {
             normalzombie.setOpacity(0);
+            l1.setOpacity(0);
             conezombie.setOpacity(1);
-            i=2;
+            l2.setOpacity(1);
+            i++;
         }
         else if(i==2)
         {
             conezombie.setOpacity(0);
+            l2.setOpacity(0);
             bucketzombie.setOpacity(1);
+            l3.setOpacity(1);
             i++;
         }
         else if(i==3)
         {
             bucketzombie.setOpacity(0);
+            l3.setOpacity(0);
             shieldzombie.setOpacity(1);
+            l4.setOpacity(1);
             i++;
         }
         else if(i==4)
         {
             normalzombie.setOpacity(1);
+            l4.setOpacity(0);
             shieldzombie.setOpacity(0);
+            l1.setOpacity(1);
             i=1;
         } 
         AP_Project.level=i;
@@ -93,25 +109,33 @@ public class Level_PageController implements Initializable {
         if(i==1)
         {
             normalzombie.setOpacity(0);
+            l1.setOpacity(0);
             shieldzombie.setOpacity(1);
+            l4.setOpacity(1);
             i=4;
         }
         else if(i==2)
         {
             conezombie.setOpacity(0);
+            l2.setOpacity(0);
             normalzombie.setOpacity(1);
+            l1.setOpacity(1);
             i--;
         }
         else if(i==3)
         {
             bucketzombie.setOpacity(0);
+            l3.setOpacity(0);
             conezombie.setOpacity(1);
+            l2.setOpacity(1);
             i--;
         }
         else if(i==4)
         {
             shieldzombie.setOpacity(0);
+            l4.setOpacity(0);
             bucketzombie.setOpacity(1);
+            l3.setOpacity(1);
             i--;
         }
         AP_Project.level=i;

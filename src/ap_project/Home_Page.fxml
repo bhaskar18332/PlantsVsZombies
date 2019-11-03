@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Home_PageController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="935.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume_back.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="364.0" layoutY="411.0" mnemonicParsing="false" onAction="#home_back" opacity="0.8" text="Cancel">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#94f807">
+               <input>
+                  <DropShadow blurType="GAUSSIAN" color="#cff801" spread="0.79" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Label layoutX="323.0" layoutY="6.0" text="Welcome!" textFill="#dcf806">
+         <font>
+            <Font name="Bookman Old Style Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="374.0" layoutY="169.0" mnemonicParsing="false" onAction="#level" opacity="0.8" prefHeight="77.0" prefWidth="138.0" text="Play">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#e1ff00" height="1.0" radius="0.0" width="0.0">
+               <input>
+                  <DropShadow blurType="GAUSSIAN" color="#cff801" spread="0.76" />
+               </input>
+            </InnerShadow>
+         </effect>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="300.0" mnemonicParsing="false" onAction="#shop" opacity="0.8" prefHeight="49.0" prefWidth="146.0" text="Shop">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#94f807">
+               <input>
+                  <DropShadow blurType="GAUSSIAN" color="#cff801" spread="0.83" />
+               </input>
+            </InnerShadow>
+         </effect>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Label fx:id="user_name" alignment="CENTER" layoutX="178.0" layoutY="97.0" prefHeight="43.0" prefWidth="521.0" textAlignment="CENTER" textFill="#dcf806">
+         <font>
+            <Font name="Bookman Old Style Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

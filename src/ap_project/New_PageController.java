@@ -34,7 +34,7 @@ public class New_PageController implements Initializable {
         AP_Project.name = Name.getText();
         stage = AP_Project.stage;
         
-        Parent root = FXMLLoader.load(getClass().getResource("Level_Page.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Home_Page.fxml"));
         
         Scene scene = new Scene(root);
         

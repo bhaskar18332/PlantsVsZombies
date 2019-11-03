@@ -21,12 +21,10 @@ import javafx.stage.Stage;
  * @author lenovo
  */
 public class MainPageController implements Initializable {
-    Stage stage;
+    Stage stage = AP_Project.stage;
     
     @FXML
     private void New_Game(ActionEvent event) throws IOException {
-        System.out.println("New Game");
-        stage = AP_Project.stage;
         Parent root = FXMLLoader.load(getClass().getResource("New_Page.fxml"));
         
         Scene scene = new Scene(root);
@@ -37,12 +35,22 @@ public class MainPageController implements Initializable {
     }
     
     @FXML
-    private void Resume_Game(ActionEvent event) {
-        System.out.println("Resume Game...");
+    private void Resume_Game(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Load_Game_Page.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        stage.setScene(scene);
+        stage.show();
     }
     @FXML
-    private void Settings(ActionEvent event) {
-        System.out.println("Settings...");
+    private void Settings(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Settings_Page.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        stage.setScene(scene);
+        stage.show();
     }
     @FXML
     private void Level(ActionEvent event) throws IOException {

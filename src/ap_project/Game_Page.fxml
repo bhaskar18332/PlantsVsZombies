@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,46 +8,36 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Game_PageController">
+<AnchorPane id="AnchorPane" prefHeight="514.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.Game_PageController">
    <children>
-      <ImageView fitHeight="540.0" fitWidth="935.0" layoutX="-3.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="506.0" fitWidth="935.0" layoutX="-3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Webp.net-resizeimage.jpg" />
+            <Image url="@backyard.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="mower1" fitHeight="73.0" fitWidth="80.0" layoutX="122.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mower1" fitHeight="73.0" fitWidth="80.0" layoutX="158.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@mower.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="mower3" fitHeight="73.0" fitWidth="80.0" layoutX="125.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mower3" fitHeight="73.0" fitWidth="80.0" layoutX="148.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@mower.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="mower4" fitHeight="73.0" fitWidth="80.0" layoutX="118.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mower4" fitHeight="73.0" fitWidth="80.0" layoutX="138.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@mower.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="mower5" fitHeight="73.0" fitWidth="80.0" layoutX="108.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mower5" fitHeight="73.0" fitWidth="80.0" layoutX="138.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@mower.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="mower2" fitHeight="73.0" fitWidth="80.0" layoutX="123.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mower2" fitHeight="73.0" fitWidth="80.0" layoutX="148.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@mower.png" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="shooter1" fitHeight="94.0" fitWidth="99.0" layoutX="181.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@peashooter.png" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="shooter2" fitHeight="94.0" fitWidth="99.0" layoutX="181.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@peashooter.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="63.0" fitWidth="84.0" layoutX="856.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
@@ -55,35 +46,90 @@
          </image>
       </ImageView>
       <Button layoutX="855.0" layoutY="1.0" mnemonicParsing="false" onAction="#pause" opacity="0.0" prefHeight="71.0" prefWidth="77.0" />
-      <ImageView fx:id="pea1" fitHeight="35.0" fitWidth="38.0" layoutX="263.0" layoutY="136.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="pea1" fitHeight="26.0" fitWidth="34.0" layoutX="270.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@pea.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="pea2" fitHeight="35.0" fitWidth="38.0" layoutX="265.0" layoutY="330.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="pea2" fitHeight="26.0" fitWidth="26.0" layoutX="249.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@pea.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="pea3" fitHeight="35.0" fitWidth="38.0" layoutX="263.0" layoutY="136.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="pea3" fitHeight="26.0" fitWidth="26.0" layoutX="263.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@pea.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="pea4" fitHeight="35.0" fitWidth="332.0" layoutX="269.0" layoutY="330.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="pea4" fitHeight="28.0" fitWidth="30.0" layoutX="238.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@pea.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="zombie1" fitHeight="150.0" fitWidth="200.0" layoutX="802.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="zombie2" fitHeight="126.0" fitWidth="93.0" layoutX="848.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@conezombie.jpg" />
+            <Image url="@zombie_normal.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="zombie2" fitHeight="150.0" fitWidth="200.0" layoutX="810.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="shooter1" fitHeight="71.0" fitWidth="71.0" layoutX="235.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@normalzombie.png" />
+            <Image url="@pea_shooter.gif" />
          </image>
       </ImageView>
+      <ImageView fx:id="shooter2" fitHeight="75.0" fitWidth="78.0" layoutX="217.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pea_shooter.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="zombie1" fitHeight="113.0" fitWidth="93.0" layoutX="857.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zombie_normal.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="70.0" layoutX="6.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@active_peashooter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="81.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@active_sunflower.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="82.0" layoutX="-4.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@active_walnut.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sun1" fitHeight="56.0" fitWidth="80.0" layoutX="306.0" layoutY="-63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sun2" fitHeight="56.0" fitWidth="80.0" layoutX="423.0" layoutY="-66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sun3" fitHeight="56.0" fitWidth="80.0" layoutX="587.0" layoutY="-68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sun4" fitHeight="56.0" fitWidth="80.0" layoutX="724.0" layoutY="-65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sun.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="score" alignment="CENTER" layoutX="4.0" layoutY="54.0" prefHeight="36.0" prefWidth="69.0" text="300" textFill="#02ffff">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="suntokens" alignment="CENTER" layoutX="-3.0" layoutY="462.0" prefHeight="42.0" prefWidth="81.0" text="125" textFill="#07daff">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
