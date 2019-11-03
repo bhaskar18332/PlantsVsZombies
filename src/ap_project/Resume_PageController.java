@@ -30,7 +30,7 @@ public class Resume_PageController implements Initializable {
     @FXML
     private void resume(ActionEvent e) throws IOException
     {
-        Parent root = FXMLLoader.load(getClass().getResource("Game_Page.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("GamePage.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -45,7 +45,7 @@ public class Resume_PageController implements Initializable {
     @FXML
     private void restart(ActionEvent e) throws IOException
     {
-        Parent root = FXMLLoader.load(getClass().getResource("Game_Page.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("GamePage.fxml"));
         
         Scene scene = new Scene(root);
         
